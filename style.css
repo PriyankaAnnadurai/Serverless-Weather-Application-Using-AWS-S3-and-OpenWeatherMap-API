@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f0f0f;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background 0.8s ease;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(20, 20, 20, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  input {
+    padding: 10px;
+    width: 60%;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background: #222;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .weather-card, .forecast-card {
+    background-color: rgba(34, 34, 34, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: #fff;
+  }
+  
+  .forecast-section {
+    margin-top: 20px;
+  }
+  
+  .forecast-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .forecast-card {
+    flex: 1 1 30%;
+    min-width: 120px;
+  }
+  
